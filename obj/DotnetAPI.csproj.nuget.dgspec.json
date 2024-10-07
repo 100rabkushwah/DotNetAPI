@@ -1,0 +1,110 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\part3\\DotnetAPI(TokenValidation)\\DotnetAPI\\DotnetAPI.csproj": {}
+  },
+  "projects": {
+    "E:\\part3\\DotnetAPI(TokenValidation)\\DotnetAPI\\DotnetAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\part3\\DotnetAPI(TokenValidation)\\DotnetAPI\\DotnetAPI.csproj",
+        "projectName": "DotnetAPI",
+        "projectPath": "E:\\part3\\DotnetAPI(TokenValidation)\\DotnetAPI\\DotnetAPI.csproj",
+        "packagesPath": "C:\\Users\\Dragon Ball\\.nuget\\packages\\",
+        "outputPath": "E:\\part3\\DotnetAPI(TokenValidation)\\DotnetAPI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Dragon Ball\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameWorkCore": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameWorkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameWorkCore.relational": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.8.1, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.6, )"
+            },
+            "automapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "dapper": {
+              "target": "Package",
+              "version": "[2.1.35, )"
+            },
+            "microsoft.aspnetcore.authentication.jwtbearer": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "microsoft.data.sqlclient": {
+              "target": "Package",
+              "version": "[5.2.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
