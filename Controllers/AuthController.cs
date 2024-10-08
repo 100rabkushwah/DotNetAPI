@@ -30,6 +30,19 @@ public class AuthController : ControllerBase
         _authHelper = new AuthHelper(config);
     }
 
+
+
+    /// <summary>
+    /// 
+    /// This below API is used to Register the new user this is taking the UserForRegistrationDtos.cs
+    /// this user registration having properties UserName, Password, ConfirmPassword
+    /// in this below API we are creating the Hash and Salt password, this hash and salt password will be
+    /// stored in Auth table
+    /// 
+    /// </summary>
+    /// <param name="userForRegistration"></param>
+    /// <returns></returns>
+    /// <exception cref="Exception"></exception>
     [AllowAnonymous]
     [HttpPost("Register")]
     public IActionResult Register(UserForRegistrationDtos userForRegistration)
@@ -91,6 +104,19 @@ public class AuthController : ControllerBase
     }
 
     
+
+
+
+    /// <summary>
+    /// 
+    /// This is the login API user is trying to login into the system using API this userForLogin object taking the email and password
+    /// and then later we will confirm that the password given by user is correct i.e exactly matching with password stored password
+    /// 
+    /// 
+    /// </summary>
+    /// <param name="userForLogin"></param>
+    /// <returns></returns>
+
     [AllowAnonymous]
     [HttpPost("Login")]
     public IActionResult Login(UserForLoginDtos userForLogin)
@@ -118,6 +144,11 @@ public class AuthController : ControllerBase
             {"Token : ", _authHelper.CreateToken(userId)}
         });
     }
+
+    /// <summary>
+    /// This API is using for refreshing the token.
+    /// </summary>
+    /// <returns></returns>
 
     [HttpGet("RefreshToken")]
     public IActionResult RefreshToken()

@@ -159,3 +159,4 @@ E:\part3\DotnetAPI(TokenValidation)\DotnetAPI\obj\Debug\net8.0\refint\DotnetAPI.
 E:\part3\DotnetAPI(TokenValidation)\DotnetAPI\obj\Debug\net8.0\DotnetAPI.pdb
 E:\part3\DotnetAPI(TokenValidation)\DotnetAPI\obj\Debug\net8.0\DotnetAPI.genruntimeconfig.cache
 E:\part3\DotnetAPI(TokenValidation)\DotnetAPI\obj\Debug\net8.0\ref\DotnetAPI.dll
+E:\part3\DotnetAPI(TokenValidation)\DotnetAPI\obj\Debug\net8.0\DotnetAPI.sourcelink.json
